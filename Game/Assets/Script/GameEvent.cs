@@ -3,19 +3,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameEvent : MonoBehaviour
+public class GameEvent : Singleton<GameEvent>
 {
-    public static GameEvent instance;
+
     public event Action<int> onDoorEnter;
     public event Action<int> onDoorExit;
-
-    private void Awake()
-    {
-        if (instance == null)
-        {
-            instance = this;
-        }
-    }
 
     public void DoorTriggerEnter(int enterCount)
     {
