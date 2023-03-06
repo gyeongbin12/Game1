@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Singleton<T> : MonoBehaviour where T : MonoBehaviour
 {
-
     private static T instance;
 
     public static T Instance
@@ -24,6 +23,8 @@ public class Singleton<T> : MonoBehaviour where T : MonoBehaviour
                 {
                     instance = manager.GetComponent<T>();
                 }
+
+                DontDestroyOnLoad(manager);
             }
 
             return instance;

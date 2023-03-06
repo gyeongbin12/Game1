@@ -18,6 +18,8 @@ public class Door : MonoBehaviour
     {
         if (doorCount == openCount)
         {
+            SoundManager.Instance.Sound(1);
+
             animator.SetBool("open", true); 
         }
     }
