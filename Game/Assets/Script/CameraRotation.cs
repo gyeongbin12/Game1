@@ -15,5 +15,5 @@ public class CameraRotation : MonoBehaviour
         mouseY = Mathf.Clamp(mouseY, -55.0f, 35.0f);
 
         transform.localEulerAngles = new Vector3(-mouseY, 0, 0);
-    }
+    }   
 }

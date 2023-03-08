@@ -356,9 +356,11 @@
 "Assets/Script/CameraRotation.cs"
 "Assets/Script/CollisionArea.cs"
 "Assets/Script/Door.cs"
+"Assets/Script/GameButton.cs"
 "Assets/Script/GameEvent.cs"
 "Assets/Script/Manager/Singleton.cs"
 "Assets/Script/Manager/SoundManager.cs"
+"Assets/Script/Map Event/Mission.cs"
 "Assets/Script/Player.cs"
 -langversion:9.0
 
