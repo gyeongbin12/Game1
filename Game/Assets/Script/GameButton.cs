@@ -7,7 +7,7 @@ public class GameButton : MonoBehaviour
 
 
 
-
+/*
     void Start()
     { 
 
@@ -29,4 +29,6 @@ public class GameButton : MonoBehaviour
 
         SceneManager.LoadScene("Title Scene");
     }
+*/
+
 }

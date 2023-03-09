@@ -362,6 +362,7 @@
 "Assets/Script/Manager/SoundManager.cs"
 "Assets/Script/Map Event/Mission.cs"
 "Assets/Script/Player.cs"
+"Assets/Script/QuickSort.cs"
 -langversion:9.0
 
 /deterministic
